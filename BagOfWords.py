@@ -52,10 +52,7 @@ def my_bag_of_words(text, words_to_index, dict_size):
         
         return a vector which is a bag-of-words representation of 'text'
     """
-    result_vector = np.zeros(dict_size)       
-    ######################################
-    ######### YOUR CODE HERE #############
-    ######################################    
+    result_vector = np.zeros(dict_size)        
     for word in text.split(" "):
         if word in words_to_index:
             result_vector[words_to_index[word]] = 1
