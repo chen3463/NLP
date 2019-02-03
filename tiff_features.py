@@ -28,7 +28,7 @@ to weigh down the frequent terms while scale up the rare ones, by computing the 
 
 IDF(t) = log_e(Total number of documents / Number of documents with term t in it).
 
-
+Source from http://www.tfidf.com
 """
 from sklearn.feature_extraction.text import TfidfVectorizer
 
