@@ -5,5 +5,6 @@ Write a program that, given a URL, parses out and displays its constituent compo
 from urllib.parse import urlparse
 # from urlparse import urlparse  # Python 2
 parsed_uri = urlparse('http://stackoverflow.com/questions/1234567/blah-blah-blah-blah' )
-result = '{uri.scheme}://{uri.netloc}/'.format(uri=parsed_uri)
-print(result)
+# result = '{uri.scheme}://{uri.netloc}/'.format(uri=parsed_uri)
+# print(result)
+print(parsed_uri.scheme, parsed_uri.netloc, parsed_uri.path, sep=", ")
