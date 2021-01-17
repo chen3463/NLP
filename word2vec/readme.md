@@ -1,3 +1,4 @@
+# Python Scripts to implement SkipGram
 
 ## 1. utils.py
 Has functions to clean texts, generate batches and targets for SkipGram word2vec, build lookup tables between words and ints and measure cosine similarities
